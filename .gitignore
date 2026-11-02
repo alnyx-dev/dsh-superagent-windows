@@ -1,0 +1,7 @@
+node_modules/
+lib/
+.artifacts/
+.env
+coverage/
+.pnpm-store/
+.npm-cache/

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Run the cross-platform dsh-superagent service manager on Linux or macOS.
+# Windows uses scripts\dsh-superagent.cmd or `node scripts\dsh-superagent.mjs`.
+exec node "$(dirname "$0")/dsh-superagent.mjs" "$@"
